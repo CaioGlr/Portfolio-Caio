@@ -1,8 +1,7 @@
 a {
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: 170%;
-    text-align: center;
-    padding: left;
+   
 }
 
 .lilita-one-regular {
@@ -15,9 +14,15 @@ a {
     color: whitesmoke;    
   }
 
-.nav-link {
+.active {
     transition: background-color 0.8s;
 }
-.nav-link:hover {
-    background-color: gray
+.active:hover {
+    background-color: gray;
+    color: #fff ;text-shadow:0 0 0.2em #fff, 0 0 0.2em #F87;
+}
+
+.select {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 170%;
 }
